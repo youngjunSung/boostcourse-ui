@@ -1,0 +1,147 @@
+/* Common */
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select, img {
+  margin: 0;
+  padding: 0;
+}
+body, input, textarea, select, button, table {
+  font-family: '나눔고딕', NanumGothic, '맑은고딕', MalgunGothic, '돋움', Dotum, Helvetica, sans-serif;
+  font-size: 12px;
+}
+img, fieldset {
+  border: 0;
+}
+ul, ol {
+  list-style: none;
+}
+em, address {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+}
+.blind, .u_skip {
+  overflow: hidden !important;
+  position: absolute !important;
+  clip: rect(0 0 0 0) !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+}
+
+/* content */
+// 메인헤더, 콘텐츠 레이아웃, 콘텐츠 타이틀
+.main {
+  .hd {
+    background-color: #000;
+    h1 {
+      width: 1080px;
+      margin: 0 auto;
+      font-size: 40px;
+      font-weight: bold;
+      color: #fff;
+      line-height: 120px;
+      padding: 0 40px;
+      box-sizing: border-box;
+    }
+  }
+  .container {
+    .content {
+      .inner {
+        width: 1080px;
+        margin: 0 auto;
+        padding: 40px;
+        box-sizing: border-box;
+        .cont_tit {
+          font-size: 20px;
+          font-weight: bold;
+          color: #000;
+          padding: 20px 0;
+          margin-bottom: 20px;
+          border-bottom: 1px solid #454545;
+        }
+      }
+    }
+  }
+}
+
+// 네비게이션
+.gnb {
+  margin-bottom: 20px;
+  .menu_list {
+    overflow: hidden;
+    li {
+      width: calc((100% - 28px) / 3);
+      float: left;
+      border: 1px solid #d1d1d1;
+      margin-left: 14px;
+      box-sizing: border-box;
+      text-align: center;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:hover {
+        border-color: #000;
+      }
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        line-height: 33px;
+        display: block;
+      }
+    }
+  }
+}
+
+//구성요소 내용
+.elemt_list {
+  .elemt {
+    border: 1px solid #d1d1d1;
+    margin-top: 30px;
+    &:first-child {
+      margin-top: 0;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      padding: 13px;
+      background-color: #f7f7f7;
+      border-bottom: 1px solid #d1d1d1;
+    }
+    .cnt {
+      padding: 30px;
+    }
+  }
+}
+
+.table_elemt {
+  .cnt {
+
+  }
+}
+
+//푸터
+.ft {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #d1d1d1;
+  address {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+    a {
+      color: #999;
+      text-decoration: none;
+    }
+  }
+  p {
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+  }
+}
