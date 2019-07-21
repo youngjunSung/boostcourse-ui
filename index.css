@@ -127,6 +127,432 @@ a:hover, a:active, a:focus {
   padding: 30px;
 }
 
+.elemt_list .elemt .cnt .cnt_tit {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.elemt_list .elemt .cnt .cnt_tit ~ h4 {
+  margin-top: 40px;
+}
+
+.table_elemt .cnt table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.table_elemt .cnt table ~ table {
+  margin-top: 60px;
+}
+
+.table_elemt .cnt table caption {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.table_elemt .cnt table thead tr {
+  background-color: #fbfbfb;
+}
+
+.table_elemt .cnt table th, .table_elemt .cnt table td {
+  border: 1px solid #e4e4e4;
+  padding: 10px 0;
+  font-size: 12px;
+  color: #555;
+}
+
+.table_elemt .cnt table.refund_inquire th {
+  font-weight: normal;
+}
+
+.table_elemt .cnt table.refund_inquire th, .table_elemt .cnt table.refund_inquire td {
+  border: 0;
+}
+
+.table_elemt .cnt table.refund_inquire thead tr {
+  border-top: 2px solid #a5a5a5;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.table_elemt .cnt table.refund_inquire tbody td span {
+  display: block;
+  text-align: right;
+  width: 60px;
+  margin: 0 auto;
+}
+
+.table_elemt .cnt table.refund_inquire tfoot tr {
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.form_elemt form {
+  padding: 20px;
+  background-color: #fbfbfb;
+  border: 1px solid #e4e4e4;
+}
+
+.form_elemt form .row ~ div {
+  margin-top: 20px;
+}
+
+.form_elemt form .row strong {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.form_elemt form .row input, .form_elemt form .row textarea {
+  font-size: 14px;
+  color: #000;
+  border: 1px solid #e4e4e4;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form_elemt form .row.user_id input {
+  width: 100%;
+}
+
+.form_elemt form .row.user_pw input {
+  width: 100%;
+}
+
+.form_elemt form .row.user_name input {
+  width: 100%;
+}
+
+.form_elemt form .row.user_birth {
+  font-size: 0;
+}
+
+.form_elemt form .row.user_birth input {
+  width: calc(33.333% - 10px);
+}
+
+.form_elemt form .row.user_birth input ~ input {
+  margin-left: 15px;
+}
+
+.form_elemt form .row.user_birth input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+.form_elemt form .row.user_birth input:-ms-input-placeholder {
+  color: #000;
+}
+
+.form_elemt form .row.user_birth input::-ms-input-placeholder {
+  color: #000 !important;
+}
+
+.form_elemt form .row.user_birth input::-webkit-input-placeholder {
+  color: #000;
+}
+
+.form_elemt form .row.user_gender input {
+  vertical-align: middle;
+}
+
+.form_elemt form .row.user_gender input ~ input {
+  margin-left: 50px;
+}
+
+.form_elemt form .row.user_gender label {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.form_elemt form .row.user_email input {
+  width: 100%;
+}
+
+.form_elemt form .row.user_phone {
+  font-size: 0;
+}
+
+.form_elemt form .row.user_phone .phone_num {
+  vertical-align: middle;
+  width: calc(100% - 210px);
+}
+
+.form_elemt form .row.user_phone .cert_btn {
+  vertical-align: middle;
+  width: 200px;
+  height: 38px;
+  margin-left: 10px;
+  border: 1px solid #08a600;
+  background-color: #4ec53d;
+  color: #fff;
+  font-size: 12px;
+}
+
+.form_elemt form .row.user_phone .cert_num {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.form_elemt form .row.user_hobby input {
+  vertical-align: middle;
+}
+
+.form_elemt form .row.user_hobby input ~ input {
+  margin-left: 60px;
+}
+
+.form_elemt form .row.user_hobby label {
+  vertical-align: middle;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.form_elemt form .row.user_intro textarea {
+  width: 100%;
+  height: 120px;
+}
+
+.form_elemt form .btn_join {
+  width: 100%;
+  border: 1px solid #08a600;
+  background-color: #4ec53d;
+  font-size: 16px;
+  color: #fff;
+  height: 42px;
+  margin-top: 10px;
+}
+
+.list_elemt .dic_result {
+  padding: 50px 20px;
+  border: 1px solid #e4e4e4;
+}
+
+.list_elemt .dic_result .dic_tit {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.list_elemt .dic_result .dic_desc dt {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+
+.list_elemt .dic_result .dic_desc dt ~ dt {
+  margin-top: 10px;
+}
+
+.list_elemt .dic_result .dic_desc dt em {
+  font-size: 12px;
+  font-weight: normal;
+  color: #559bfa;
+  margin-left: 3px;
+}
+
+.list_elemt .dic_result .dic_desc dd {
+  font-size: 12px;
+  font-weight: normal;
+  color: #000;
+  margin-top: 6px;
+  line-height: 18px;
+}
+
+.list_elemt .realtime_word {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #e4e4e4;
+}
+
+.list_elemt .realtime_word .word_list {
+  counter-reset: num;
+}
+
+.list_elemt .realtime_word .word_list li {
+  line-height: 17px;
+}
+
+.list_elemt .realtime_word .word_list li ~ li {
+  margin-top: 5px;
+}
+
+.list_elemt .realtime_word .word_list li a {
+  font-size: 12px;
+  color: #000;
+}
+
+.list_elemt .realtime_word .word_list li:hover {
+  text-decoration: underline;
+}
+
+.list_elemt .realtime_word .word_list li:before {
+  counter-increment: num;
+  content: counter(num);
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 1px solid #e0e0e0;
+  font-size: 10px;
+  color: #666;
+  text-align: center;
+  line-height: 17px;
+  margin-right: 10px;
+}
+
+.list_elemt .notice_cookie {
+  border: 1px solid #e4e4e4;
+  padding: 20px 30px;
+}
+
+.list_elemt .notice_cookie .notice_list li {
+  list-style: disc;
+}
+
+.list_elemt .notice_cookie .notice_list li ~ li {
+  margin-top: 10px;
+}
+
+.list_elemt .notice_cookie .notice_list li em {
+  color: #559bfa;
+}
+
+.list_elemt .notice_cookie .notice_list li span {
+  color: #ec5336;
+}
+
+.list_elemt .notice_cookie .notice_list li a {
+  color: #559bfa;
+  text-decoration: underline;
+}
+
+.list_elemt .news_area {
+  border: 1px solid #e4e4e4;
+  padding: 0 20px;
+}
+
+.list_elemt .news_area .news_list li {
+  padding: 20px 0;
+}
+
+.list_elemt .news_area .news_list li ~ li {
+  border-top: 1px solid #e4e4e4;
+}
+
+.list_elemt .news_area .news_list li img {
+  float: left;
+  margin-right: 5px;
+}
+
+.list_elemt .news_area .news_list li dl {
+  overflow: hidden;
+}
+
+.list_elemt .news_area .news_list li dl dt a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #00c;
+  text-decoration: underline;
+}
+
+.list_elemt .news_area .news_list li dl dd {
+  font-size: 12px;
+  color: #000;
+  margin-top: 5px;
+  line-height: 18px;
+}
+
+.list_elemt .webtoon_area {
+  border: 1px solid #e4e4e4;
+  padding: 20px 20px;
+}
+
+.list_elemt .webtoon_area .webtton_list {
+  overflow: hidden;
+  font-size: 0;
+  margin: 0 -10px;
+}
+
+.list_elemt .webtoon_area .webtton_list li {
+  display: inline-block;
+  margin: 0 10px 20px;
+  width: 285px;
+}
+
+.list_elemt .webtoon_area .webtton_list li a {
+  display: block;
+  color: #000;
+}
+
+.list_elemt .webtoon_area .webtton_list li a:hover {
+  text-decoration: none;
+}
+
+.list_elemt .webtoon_area .webtton_list li a:hover strong, .list_elemt .webtoon_area .webtton_list li a:hover em {
+  text-decoration: underline;
+}
+
+.list_elemt .webtoon_area .webtton_list li a:hover span {
+  text-decoration: none;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure {
+  margin: 0;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure img {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure figcaption {
+  margin-top: 8px;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure figcaption span {
+  font-size: 10px;
+  color: #fff;
+  padding: 1px 3px;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure figcaption span.cut {
+  border: 1px solid #71b036;
+  background-color: #80c83d;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure figcaption span.smart {
+  border: 1px solid #df4e28;
+  background-color: #ec5336;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure figcaption strong {
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  display: inline-block;
+}
+
+.list_elemt .webtoon_area .webtton_list li figure figcaption em {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #000;
+}
+
 .ft {
   text-align: center;
   padding: 20px;
