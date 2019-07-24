@@ -49,7 +49,7 @@ a:hover, a:active, a:focus {
   margin: 0 auto;
   font-size: 40px;
   font-weight: bold;
-  color: #fff;
+  color: #ff0;
   line-height: 120px;
   padding: 0 40px;
   box-sizing: border-box;
@@ -452,7 +452,7 @@ a:hover, a:active, a:focus {
 
 .list_elemt .news_area .news_list li img {
   float: left;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .list_elemt .news_area .news_list li dl {

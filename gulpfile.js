@@ -4,15 +4,15 @@ var spritesmith = require('gulp.spritesmith');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('sass',function(){
-    return gulp.src('*.scss') // scss 파일 경로
+    return gulp.src('scss/*.scss') // scss 파일 경로
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError)) // outputStyle : nested, expanded, compact, compressed
     .pipe(sourcemaps.write('.',{includeContent: true}))
-    .pipe(gulp.dest('')); // 컴파일된 css 생성 위치
+    .pipe(gulp.dest('css/')); // 컴파일된 css 생성 위치
 });
 
 gulp.task('sass:watch',function(){
-    gulp.watch('*.scss',['sass']); // scss 파일 경로
+    gulp.watch('scss/*.scss',['sass']); // scss 파일 경로
 });
 
 gulp.task('sprite', function() {
