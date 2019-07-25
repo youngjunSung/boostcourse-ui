@@ -48,7 +48,6 @@ a:hover, a:active, a:focus {
   width: 1080px;
   margin: 0 auto;
   font-size: 40px;
-  font-weight: bold;
   color: #fff;
   line-height: 120px;
   padding: 0 40px;
@@ -64,10 +63,9 @@ a:hover, a:active, a:focus {
 
 .main .container .content .inner .cont_tit {
   font-size: 20px;
-  font-weight: bold;
   color: #000;
   padding: 20px 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #454545;
 }
 
@@ -96,10 +94,13 @@ a:hover, a:active, a:focus {
   border-color: #000;
 }
 
+.gnb .menu_list li:hover a {
+  font-weight: bold;
+}
+
 .gnb .menu_list li a {
   text-decoration: none;
   font-size: 16px;
-  font-weight: bold;
   color: #333;
   line-height: 33px;
   display: block;
@@ -116,7 +117,6 @@ a:hover, a:active, a:focus {
 
 .elemt_list .elemt h3 {
   font-size: 16px;
-  font-weight: bold;
   color: #333;
   padding: 13px;
   background-color: #f7f7f7;
@@ -129,7 +129,6 @@ a:hover, a:active, a:focus {
 
 .elemt_list .elemt .cnt .cnt_tit {
   font-size: 14px;
-  font-weight: bold;
   color: #000;
   margin-bottom: 20px;
 }
@@ -206,7 +205,6 @@ a:hover, a:active, a:focus {
 .form_elemt form .row strong {
   display: block;
   font-size: 14px;
-  font-weight: bold;
   color: #000;
   margin-bottom: 10px;
 }
@@ -339,7 +337,6 @@ a:hover, a:active, a:focus {
 
 .list_elemt .dic_result .dic_tit {
   font-size: 32px;
-  font-weight: bold;
   color: #000;
   text-align: center;
   margin-bottom: 20px;
@@ -541,7 +538,6 @@ a:hover, a:active, a:focus {
 .list_elemt .webtoon_area .webtton_list li figure figcaption strong {
   vertical-align: middle;
   font-size: 14px;
-  font-weight: bold;
   color: #000;
   display: inline-block;
 }
@@ -572,7 +568,6 @@ a:hover, a:active, a:focus {
 
 .ft p {
   font-size: 12px;
-  font-weight: normal;
   color: #000;
 }
 
